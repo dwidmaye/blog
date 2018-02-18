@@ -19,6 +19,14 @@ gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+#HAML
+#Haml (HTML Abstraction Markup Language) is a layer on top of HTML
+gem 'haml', '~> 5.0', '>= 5.0.4' 
+#Rails scaffolding with Haml rather than ERB
+gem 'haml_scaffold', '~> 1.1'
+#Convert HTML/ERB to HAML
+gem 'html2haml'
+
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
